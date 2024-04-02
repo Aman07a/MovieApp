@@ -16,6 +16,7 @@
         <h3><%= movie.title %></h3>
         <p><%= movie.release_year %></p>
         <p><%= movie.plot %></p>
+        <%= link_to "Learn more", movie_path(movie) %>
       </div>
     <% end %>
 
